@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pro</title>
+
+    <!-- vinculos para bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+
+
+<body>
+    <!-- barra de navegación "nav" -->
+    <nav class="navbar navbar-expand-lg bg-dark sticky-top"> <!--falta arreglar esto-->
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">Pro Puntos</a>
+        <button class="navbar-toggler bg-primary" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <!-- Links -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Nosotros</a>
+                </li>
+                <!-- Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop-1" data-toggle="dropdown">
+                    Materiales
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Materias Primas</a>
+                        <a href="#" class="dropdown-item">Elemontos Procesados</a>
+                        <a href="#" class="dropdown-item">Productos</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop-2" data-toggle="dropdown">
+                    Plantas recicladores
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Zona Norte</a>
+                        <a href="#" class="dropdown-item">Zona Centro</a>
+                        <a href="#" class="dropdown-item">zona Sur</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop-3" data-toggle="dropdown">
+                    Empresas Asociadas
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Multitiendas</a>
+                        <a href="#" class="dropdown-item">Supermercados</a>
+                        <a href="#" class="dropdown-item">Aerolineas</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- Formas navbar -->
+        <form class="form-inline" action="/action_page.php">
+            <input class="form-control mr-sm-2" type="text" placeholder="¿Que buscas?">
+            <button class="btn btn-success" type="submit">Buscar</button>
+          </form>
+    </nav>
+
+    <!-- Encabezado pagina "header" -->
+    <header class="jumbotron bg-primary text-center text-white header">
+        <img src="/static/logo_01.png" alt="logo alfa" style="height: 100px;" class="img-thumbnail img-fluid">
+        <h1>Pro Puntos</h1>
+        <p>Aprovecha tus ganas de cuidar el planeta, acumula puntos y consigue beneficios</p>
+    </header>
+
+    <!-- Cuerpo pagina "main" -->
+    <main class="conteiner">
+
+        <!-- bloque de imagen centra con texto al pie -->
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8 bg-secondary">
+                <div class="col-12">
+                    <img src="/static/reciclaje_02.png" alt="cables reciclados" class="img-thumbnail img-fluid">
+                </div>
+                <div class="col-12">
+                    <h3>Lorem ipsum dolor sit.</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, illo!</p>
+                </div>
+            </div>
+            <div class="col-2"></div>
+        </div>
+
+        <!-- Espacio en blanco -->
+        <div class="row bg-white">
+            <p> </p>
+        </div>
+
+        <!-- bloque de 3 imagenes -->
+        <div class="row">
+            <div class="col-4">
+                <img src="/static/componentes_01.png" alt="componentes" style="width:100%; height: 300px;">
+            </div>
+            <div class="col-4">
+                <img src="/static/materia_procesada_01.png" alt="materia procesada" style="width:100%; height: 300px;">
+            </div>
+            <div class="col-4">
+                <img src="/static/producto_01.png" alt="producto" style="width:100%; height: 300px;">
+            </div>
+        </div>
+
+        <!-- Espacio en blanco -->
+        <div class="row bg-white">
+            <p> </p>
+        </div>
+
+        <!-- bloque de imagen centra con texto al pie -->
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8 bg-secondary">
+                <div class="col-12">
+                    <img src="/static/reciclaje_02.png" alt="cables reciclados" class="img-thumbnail img-fluid">
+                </div>
+                <div class="col-12">
+                    <h3 class="text-center">Lorem ipsum dolor sit.</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, illo!</p>
+                </div>
+            </div>
+            <div class="col-2"></div>
+        </div>
+
+        <!-- Espacio en blanco -->
+        <div class="row bg-white">
+            <p> </p>
+        </div>
+
+        <!-- bloque de 6 imagenes -->
+        <div class="row">
+            <div class="col-2">
+                <a href="#">
+                    <img src="/static/asociados_01.png" alt="puntos cencosud" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-2">
+                <a href="#">
+                    <img src="/static/asociados_05.png" alt="jumbo" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-2">
+                <a href="#">
+                    <img src="/static/asociados_06.png" alt="santa isabel" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-2">
+                <a href="#">
+                    <img src="/static/asociados_07.png" alt="paris" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-2">
+                <a href="#">
+                    <img src="/static/asociados_08.png" alt="easy" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-2">
+                <a href="#">
+                    <img src="/static/asociados_03.png" alt="cmr puntos" class="img-fluid">
+                </a>
+            </div>
+        </div>
+
+
+    </main>
+
+
+
+    <!-- Pie de pagina "footer"-->
+    <footer class="jumbotron bg-primary text-center text-white footer">
+        <div class="row">
+            
+            <div class="col-4">
+                <ul>
+                    <dt><h4>Servicios</h4></dt>
+                    <li>Mi cuenta</li>
+                    <li>Nuestros Servicios</li>
+                    <li>Recupera tu boleta</li>
+                </ul>
+            </div>
+            <div class="col-4">
+                <ul>
+                    <dt><h4>Centro de ayuda</h4></dt>
+                    <li>Ayuda</li>
+                    <li>Cambio y devoluciones</li>
+                    <li>Preguntas frecuentes</li>
+                    <li>Terminos y condiciones</li>
+                </ul>
+            </div>
+            <div class="col-4">
+                <ul>
+                    <dt><h4>Nosotros</h4></dt>
+                    <li>Acerca de ProPuntos</li>
+                    <li>Nuestras oficinas</li>
+                    <li>Código de etica</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- contacto y redes sociales -->
+        <div class="conteiner">
+            <h3>Contacto</h3>
+            <p>contacto@propuntos.cl</p>
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col-3">
+                            <a href="#">
+                                <img src="/static/whatsapp.png" alt="whatsapp" class="img-fluid" style="width: auto;">
+                            </a>
+                        </div>
+                        <div class="col-3">
+                            <a href="https://es-la.facebook.com/">
+                                <img src="/static/facebook.png" alt="facebook" class="img-fluid" style="width: auto;">
+                            </a>
+                        </div>
+                        <div class="col-3">
+                            <a href="https://twitter.com/?lang=es">
+                                <img src="/static/twiter.png" alt="twiter" class="img-fluid" style="width: auto;">
+                            </a>
+                        </div>
+                        <div class="col-3">
+                            <a href="https://www.instagram.com/?hl=es-la">
+                                <img src="/static/instagram.png" alt="instagram" class="img-fluid" style="width: auto;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3"></div>
+            </div>            
+        </div>
+
+    </footer>
+
+    
+</body>
+</html>
