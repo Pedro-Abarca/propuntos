@@ -16,10 +16,24 @@
 
 
 <body>
+
+
+    <!-- Encabezado pagina "header" -->
+    <header class="jumbotron bg-primary text-center text-white header m-0">
+        <img src="/static/logo_01.png" alt="logo alfa" style="height: 100px;" class="img-thumbnail img-fluid">
+        <h1>Pro Puntos</h1>
+        <p>Aprovecha tus ganas de cuidar el planeta, acumula puntos y consigue beneficios</p>
+    </header>
+
     <!-- barra de navegación "nav" -->
     <nav class="navbar navbar-expand-lg bg-dark sticky-top"> <!--falta arreglar esto-->
         <!-- Brand -->
-        <a class="navbar-brand" href="#">Pro Puntos</a>
+        <a class="navbar-brand" href="#">
+            <div>
+                <img src="/static/logo_02.png" alt="logoalfa" style="width: 50px;">
+                Pro Puntos
+            </div>
+        </a>
         <button class="navbar-toggler bg-primary" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -69,12 +83,7 @@
           </form>
     </nav>
 
-    <!-- Encabezado pagina "header" -->
-    <header class="jumbotron bg-primary text-center text-white header">
-        <img src="/static/logo_01.png" alt="logo alfa" style="height: 100px;" class="img-thumbnail img-fluid">
-        <h1>Pro Puntos</h1>
-        <p>Aprovecha tus ganas de cuidar el planeta, acumula puntos y consigue beneficios</p>
-    </header>
+    <br>
 
     <!-- Cuerpo pagina "main" -->
     <main class="conteiner">
@@ -83,21 +92,23 @@
         <div class="row">
             <div class="col-2"></div>
             <div class="col-8 bg-secondary">
+                <br>
                 <div class="col-12">
-                    <img src="/static/reciclaje_02.png" alt="cables reciclados" class="img-thumbnail img-fluid">
+                    <img src="/static/reciclaje_01.png" alt="cables reciclados" class="img-thumbnail img-fluid" style="width: auto;">
                 </div>
-                <div class="col-12">
-                    <h3>Lorem ipsum dolor sit.</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, illo!</p>
+                <div class="col-12 text-white">
+                    <br>
+                    <h3>Los Pro Puntos son:</h3>
+                    <p>Los cuales enlazan los beneficios de los puntos acumulados por reciclar y los beneficios de las empresas asociadas sumando los puntos para su posterior utilización.</p>
+                    <p>Ayudando a reciclar no solos obtienes beneficios a través de los puntos, también estas ayudando a obtener un medio ambiente mas limpio lo que te beneficia a ti y a tu familia.</p>
                 </div>
             </div>
             <div class="col-2"></div>
         </div>
 
-        <!-- Espacio en blanco -->
-        <div class="row bg-white">
-            <p> </p>
-        </div>
+        <br>
+        <hr>
+        <br>
 
         <!-- bloque de 3 imagenes -->
         <div class="row">
@@ -111,33 +122,52 @@
                 <img src="/static/producto_01.png" alt="producto" style="width:100%; height: 300px;">
             </div>
         </div>
-
-        <!-- Espacio en blanco -->
-        <div class="row bg-white">
-            <p> </p>
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10 text-center text-primary">
+                <br>
+                <h4>Nuestra visión empresa surgió por la necesidad de encargarnos de los desechos que producimos directamente cada uno y las empresas productoras, inicialmente comenzó con productos relacionado con la electricidad y la electrónica pero es un modelo exportable y adaptable a cualquier empresa de reciclaje sin importar los productos a reciclar.</h4>
+            </div>
+            <div class="col-1"></div>
         </div>
+
+        <br>
+        <hr>
+        <br>
 
         <!-- bloque de imagen centra con texto al pie -->
         <div class="row">
             <div class="col-2"></div>
             <div class="col-8 bg-secondary">
                 <div class="col-12">
-                    <img src="/static/reciclaje_02.png" alt="cables reciclados" class="img-thumbnail img-fluid">
+                    <h3 class="text-center text-white">Material para reciclaje</h3>
                 </div>
-                <div class="col-12">
-                    <h3 class="text-center">Lorem ipsum dolor sit.</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, illo!</p>
+                <div class="col-12 p-3">
+                    <img src="/static/reciclaje-06.jpeg" alt="cables reciclados" class="img-thumbnail float-left d-block" style="width: 60%;">
+                </div>
+                <div class="col-12 p-3">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <h5 class="text-white text-center">Este tipo de material de desecho su utiliza para la producción de nuestros productos.</h5>
                 </div>
             </div>
             <div class="col-2"></div>
         </div>
 
-        <!-- Espacio en blanco -->
-        <div class="row bg-white">
-            <p> </p>
-        </div>
+        
+
+
+        <hr>
 
         <!-- bloque de 6 imagenes -->
+        <div class="text-center text-primary">
+            <br>
+            <h2>Asociados</h2>
+            <br>
+        </div>
+        <hr>
         <div class="row">
             <div class="col-2">
                 <a href="#">
@@ -169,6 +199,15 @@
                     <img src="/static/asociados_03.png" alt="cmr puntos" class="img-fluid">
                 </a>
             </div>
+        </div>
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="p-3 col-8">
+                <a href="#">
+                    <img src="/static/asociados_04.png" alt="Lan Pass" class="mx-auto d-block">
+                </a>
+            </div>
+            <div class="col-2"></div>
         </div>
 
 
